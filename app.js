@@ -16,7 +16,7 @@ for (var i = 0;i < monthsIndex.length; i++) {
 // Answer 3 //
 /* var date = new Date();
 var day = date.getDay();
-var daysIndex = [0,1,2,3,4,5,6,7];
+var daysIndex = [0,1,2,3,4,5,6];
 var daysName = ["Mon", "Tue", "Wed" , "Thu", "Fri", "Sat","Sun"];
                 
 for (var i = 0;i < daysIndex.length; i++) {
@@ -81,15 +81,15 @@ days2021 = ((((days2015 / 1000) / 60 ) /60) / 24) */
 /* var date = new Date();
 document.write("current date and time:" + date);
 var hours = date.getHours();
-date.setHours( "<br> after 1 hour:" + hours + 1);
-document.write(date); */
+date.setHours( hours + 1);
+document.write( "<br> after 1 hour:" + date); */
 
 // Answer 12 //
 /* var date = new Date();
-alert("current date and time:" + date);
+document.write("current date and time:" + date);
 var resetdate = date;
-resetdate = date.setFullYear(date.getFullYear() - 100);
-alert("100 years back:" + resetdate); */
+resetdate.setFullYear(date.getFullYear() - 100);
+document.write(" <br> 100 years back:" + resetdate); */
 
 // Answer 13 //
 /* var date = new Date();
